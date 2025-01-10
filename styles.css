@@ -1,0 +1,152 @@
+/* Reset and Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header Section */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+header nav ul li a:hover {
+    color: #ff9900;
+}
+
+/* About Section */
+#about {
+    padding: 40px 0;
+    text-align: center;
+    background-color: #fff;
+}
+
+#about p {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+/* Services Section */
+#services {
+    padding: 40px 0;
+    background-color: #e9e9e9;
+}
+
+#services h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#services .service {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#services h3 {
+    color: #333;
+}
+
+#services p {
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+/* Portfolio Section */
+#portfolio {
+    padding: 40px 0;
+    text-align: center;
+    background-color: #fff;
+}
+
+#portfolio h2 {
+    margin-bottom: 30px;
+}
+
+#portfolio .portfolio-item {
+    margin: 20px 0;
+}
+
+#portfolio h3 {
+    color: #333;
+}
+
+/* Contact Section */
+#contact {
+    padding: 40px 0;
+    background-color: #e9e9e9;
+    text-align: center;
+}
+
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact label {
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+#contact input,
+#contact textarea {
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 1em;
+}
+
+#contact button {
+    padding: 10px;
+    background-color: #333;
+    color: blue;
+    border: none;
+    cursor: pointer;
+}
+
+#contact button:hover {
+    background-color: #ff9900;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
